@@ -1,13 +1,3 @@
-# The purpose of this script is to provide a tidy data output for later review 
-# and analysis. The script uses a functional programming as well as a split-comb
-# ine and apply approach for ingesting untidy data, manipulating individual elem
-# ements with the dataset and finally preparing the dataset via merging for lat-
-# er review and analysis.
-# The parent function (run_analysis) calls other functions within the environme-
-# nt to process each phase of the data manipuation exercise. Initially, the fun-
-# ction works on two different datasets (test & training) preparing them for gr-
-# ouping, merging and final summary stat generation in the final_dataset() call.
-
 require("dplyr")
 
 run_analysis <- function () {
