@@ -9,10 +9,10 @@
  ments within the dataset and finally preparing the dataset via merging for lat-
  er review and analysis.
  
- ### Accessing the files
+ #### Accessing the files
  
  The files you need to download to run this script are located at:
-  [External Link] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+  [External Link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
  
 ### Script Generation Environment & Techniques
 
@@ -28,6 +28,12 @@
  ction works on two different datasets (test & training) preparing them for gr-
  ouping, merging and final summary stat generation in the final_dataset() call.
  
+ The script was fully commented using Google's R Style Guide, which is why I wi-
+ ll spare you the rambling of walking you through my code in the README. The sc-
+ ipt is fully commented and it should be transparent. Here's Google's stuff:
+ 
+    [Google R Style Guide](https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml)
+ 
  The function will print the results to the user while at the same time generat-
  ating a .txt file called "run_analysis_tidy_data.txt". To view the output text
  file please consider the following command in your R console:
@@ -37,7 +43,7 @@
       
   If you're using RStudio, otherwise print() to your console.
   
-  ## Preparing the dataset in *your* environment for running the script
+  ### Preparing the dataset in *your* environment for running the script
   
   1. Download the course *.zip file to your PC and extract the data to a direc-
   tory on your harddrive.
@@ -62,6 +68,7 @@
   6. This will load the R script executable code into the console.
   7. Type *run_analysis()* and R will execute the code, print the results to
   the console and then write a text file into the working directory.
-
- 
+  
+  If you run into any trouble, please, e-mail dev@wayfaring.io before reducing
+  the score of any particular set. I'd be happy to walk you through the steps.
  
