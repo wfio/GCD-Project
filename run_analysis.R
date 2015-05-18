@@ -5,7 +5,7 @@ run_analysis <- function () {
 # Args: none
 #Returns:
 # A table data.frame of the means of each activity (6) for each subject
-  
+
   vars <- read.table("features.txt", header = FALSE, sep = "")
   test <- test.process(vars)
   train <- train.process(vars)

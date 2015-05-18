@@ -1,11 +1,7 @@
 # CODEBOOK for run_analysis.R #
 ## Prepared by Zach / wfio@github ##
 
-
-
-
-> vars
-dftb 
+*Description of variables produced using Hmisc::describe function*
 
  88  Variables      10299  Observations
 ---------------------------------------------------------------------------------------------------
