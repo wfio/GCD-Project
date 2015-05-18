@@ -85,8 +85,6 @@
   - Accelerometer
   - Gyroscope
   
-  and were used to create measures that could would be recorded for various act-
-  vities. Time domain is measured in seconds whereas frequency in Hertz (Hz). 
   The measures created were:
   
     -tBodyAcc-XYZ
@@ -139,7 +137,17 @@
     The summary statistcs are appended to each variable name. For example, 
     *tBodyGyroJerk-std()-Y* would be translated as:
     
-    - time domain
+    - time frequency domain
     - body jerk
     - gyroscope sensor (X, Y, Z axial measurements available)
     - standard deviation of Y-axial signal from the gyroscope sensor
+    
+    ### Preparing the Code Book ###
+    
+    To prepare the overview of the code book I used the 'Hmisc' package function
+    'describe' to create a list of information about each of the variables
+    in the CODEBOOK.
+    
+    Units of measurement:
+    - t <- time in seconds
+    - f <- frequency on Hertz (Hz)
