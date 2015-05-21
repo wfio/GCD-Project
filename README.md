@@ -43,28 +43,28 @@
   
   ### Preparing the dataset in *your* environment for running the script ###
   
-  -1. Download the dataset *.zip file to your PC and extract to a directory on 
+  - 1. Download the dataset *.zip file to your PC and extract to a directory on 
   your harddrive.
-    -1.1. There will be a parent directory /UCI HAR Dataset followed by:
-     -1.1.2 /test directory, three text files and an Inertia sub-dir.
-     -1.1.3 /training directory, three text files and an Inertia sub-dir.
-     -1.1.4 /four text files that were used to prepare variable, measurement na-
+    - 1.1. There will be a parent directory /UCI HAR Dataset followed by:
+     - 1.1.2 /test directory, three text files and an Inertia sub-dir.
+     - 1.1.3 /training directory, three text files and an Inertia sub-dir.
+     - 1.1.4 /four text files that were used to prepare variable, measurement na-
      mes/details and a README.
-  -2. Save the run_analysis.R script into the /UCI HAR Dataset directory.
-  -3. Set your working directory as: *setwd("file_path_of_UCI_HART_Dataset")*.
-    -3.1 Verify your working directory: *getwd()*
-    -3.2 Verify the files from above were loaded: *list.files()*
-  -4. The script requires the 'dplyr' package. If you do not have it installed, 
+  - 2. Save the run_analysis.R script into the /UCI HAR Dataset directory.
+  - 3. Set your working directory as: *setwd("file_path_of_UCI_HART_Dataset")*.
+    - 3.1 Verify your working directory: *getwd()*
+    - 3.2 Verify the files from above were loaded: *list.files()*
+  - 4. The script requires the 'dplyr' package. If you do not have it installed, 
   please perform: *install.packages("dplyr")* from your console. The dependenc-
   ies and other requirements of the package should be reviewed before proceeding
   by reviewing the package description at:
   
     [dplyr](http://cran.r-project.org/web/packages/dplyr/index.html)
   
-  -5. Once all of the above are complete, please open the script utilizing the
+  - 5. Once all of the above are complete, please open the script utilizing the
   source function: *source("file_path")*.
-  -6. This will load the R script executable code into the console.
-  -7. Type *run_analysis()* and R will execute the code, print the results to
+  - 6. This will load the R script executable code into the console.
+  - 7. Type *run_analysis()* and R will execute the code, print the results to
   the console and then write a text file into the working directory.
   
   If you run into any trouble, please, e-mail dev@wayfaring.io before reducing
