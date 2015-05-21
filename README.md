@@ -1,5 +1,5 @@
-# Getting and Cleaning Data Course Project README #
-## Prepared by Zach (wfio@github) ##
+## Getting and Cleaning Data Course Project README #
+###### Prepared by Zach (wfio@github) ##
 
 ### Overview
 
@@ -9,12 +9,10 @@
  ments within the dataset and finally preparing the dataset via merging for lat-
  er review and analysis.
  
- #### Accessing the files
- 
  The files you need to download to run this script are located at:
   [External Link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
  
-### Script Generation Environment & Techniques
+### Script Generation Environment & Techniques ###
 
  The script was prepared in a Windows 7 32-bit environment and crafted using 
  RStudio v0.98.1103 running on R-base version 3.20.0. The only non-generic pack-
@@ -22,8 +20,6 @@
  ckage version used for this assignment was 0.4.1. The Hmisc::decribe function
  was used to create the CODEBOOK.md file to describe technical features of the 
  variables used.
- 
- ### What to expect from the script and output
  
  The parent function (run_analysis) calls other functions within the script
  to process each phase of the data manipuation exercise. Initially, the fun-
@@ -45,7 +41,7 @@
       
   If you're using RStudio, otherwise print() to your console.
   
-  ### Preparing the dataset in *your* environment for running the script
+  ### Preparing the dataset in *your* environment for running the script ###
   
   -1. Download the dataset *.zip file to your PC and extract to a directory on 
   your harddrive.
